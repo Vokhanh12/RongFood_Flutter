@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "220272383049",
+    "project_id": "testmynotes-firebase",
+    "storage_bucket": "testmynotes-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220272383049:android:4cdaaa1129657c1f4c5b98",
+        "android_client_info": {
+          "package_name": "se.loginView.loginview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220272383049-uuf9d49s42e5k7lk5jneb7et8jbe0g5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASTQ7LNhEu5ZXeGGcFzK5AHlBT8SeDkUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220272383049-uuf9d49s42e5k7lk5jneb7et8jbe0g5i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "220272383049-43tm3lld5lsnt8q5mgg1n9llma35novt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "se.mynotes.mynote.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220272383049:android:c07456c3eb4d88ff4c5b98",
+        "android_client_info": {
+          "package_name": "se.mynotes.mynote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220272383049-uuf9d49s42e5k7lk5jneb7et8jbe0g5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASTQ7LNhEu5ZXeGGcFzK5AHlBT8SeDkUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220272383049-uuf9d49s42e5k7lk5jneb7et8jbe0g5i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "220272383049-43tm3lld5lsnt8q5mgg1n9llma35novt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "se.mynotes.mynote.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220272383049:android:f86054c03af4b48a4c5b98",
+        "android_client_info": {
+          "package_name": "se.testmynote.testmynote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220272383049-uuf9d49s42e5k7lk5jneb7et8jbe0g5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASTQ7LNhEu5ZXeGGcFzK5AHlBT8SeDkUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220272383049-uuf9d49s42e5k7lk5jneb7et8jbe0g5i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "220272383049-43tm3lld5lsnt8q5mgg1n9llma35novt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "se.mynotes.mynote.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
