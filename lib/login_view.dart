@@ -92,7 +92,10 @@ class _LoginViewState extends State<LoginView> {
                           borderSide: BorderSide.none,
                           borderRadius: BorderRadius.circular(11)),
                       hintText: 'Tài khoảng'),
-                  style: TextStyle(fontSize: AppSettings.titleFontSize),
+                  style: TextStyle(
+                    fontSize: AppSettings.titleFontSize,
+                    fontWeight: FontWeight.w400,
+                  ),
                 ),
                 const SizedBox(height: 16.0),
                 TextField(
@@ -122,15 +125,17 @@ class _LoginViewState extends State<LoginView> {
                   ],
                 ),
                 SizedBox(
+                  width: SCREEN_WIDTH,
                   height: 70.0,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Container(
-                        width: SCREEN_WIDTH - 150,
-                        height: 48.0,
+                        width: SCREEN_WIDTH - 40,
+                        height: 47.0,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
+                            backgroundColor: Color.fromARGB(255, 250, 164, 1),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10)),
                           ),
@@ -147,7 +152,11 @@ class _LoginViewState extends State<LoginView> {
 
                             print(userCredential);
                           },
-                          child: Text('Đăng nhập'),
+                          child: Text(
+                            'Đăng nhập',
+                            style:
+                                TextStyle(fontSize: AppSettings.titleFontSize),
+                          ),
                         ),
                       ),
                     ],

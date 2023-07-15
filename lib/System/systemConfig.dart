@@ -12,7 +12,7 @@ class AppSettings {
     double screenHeigth = MediaQuery.of(context).size.height;
     // Thiết lập giá trị cấu hình dựa trên kích thước màn hình
     if (screenWidth < 600) {
-      titleFontSize = 16.0;
+      titleFontSize = 17.0;
       bodyFontSize = 15.0;
     } else if (screenWidth >= 600 && screenWidth < 1200) {
       titleFontSize = 21.0;
