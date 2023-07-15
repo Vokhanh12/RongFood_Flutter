@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:loginview/register_view.dart';
+import 'package:loginview/login_view.dart';
 import 'firebase_options.dart';
 
 void main() {
@@ -10,6 +11,6 @@ void main() {
   runApp(MaterialApp(
     title: 'Flutter Demo',
     theme: ThemeData(primarySwatch: Colors.blue),
-    home: const RegisterView(),
+    home: const LoginView(),
   ));
 }
