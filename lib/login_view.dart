@@ -87,7 +87,9 @@ class _LoginViewState extends State<LoginView> {
                   autocorrect: false,
                   decoration: InputDecoration(
                       filled: true,
-                      fillColor: Color.fromARGB(255, 236, 238, 237),
+                      fillColor: const Color.fromARGB(255, 236, 238, 237),
+                      contentPadding: const EdgeInsets.symmetric(
+                          vertical: 19.0, horizontal: 13.0),
                       border: OutlineInputBorder(
                           borderSide: BorderSide.none,
                           borderRadius: BorderRadius.circular(11)),
@@ -105,7 +107,9 @@ class _LoginViewState extends State<LoginView> {
                   autocorrect: false,
                   decoration: InputDecoration(
                     filled: true,
-                    fillColor: Color.fromARGB(255, 236, 238, 237),
+                    fillColor: const Color.fromARGB(255, 236, 238, 237),
+                    contentPadding: const EdgeInsets.symmetric(
+                        vertical: 19.0, horizontal: 13.0),
                     border: OutlineInputBorder(
                         borderSide: BorderSide.none,
                         borderRadius: BorderRadius.circular(11)),
@@ -135,7 +139,8 @@ class _LoginViewState extends State<LoginView> {
                         height: 47.0,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Color.fromARGB(255, 250, 164, 1),
+                            backgroundColor:
+                                const Color.fromARGB(255, 250, 164, 1),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10)),
                           ),
